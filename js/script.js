@@ -8,16 +8,23 @@ var songLengths = [];
 var links = [];
 // BELOW Add 4 More arrays to store images_links, atists, song lengths, and links for each song
 // Make sure they match the same order as your array above
-songs.forEach(function(item){
-    $("#songs").append("<ul>" + item + "</ul>");
-});
 
-images_links.forEach(function(image){
-    $("#images").append("<img src=" + image + ">");
-});
+// images_links.forEach(function(image){
+//     $("#images").append("<img src=" + image + ">");
+// });
 
+var i;
+for(i=0; i < songs.length; i++){
+     $("#songs").append("<img src=" + images_link[i] + ">");
+    $("#songs").append("<ul>" + songs[i] + "</ul>");
+}
 
-
+var i;
+var text;
+var cars = ['1', '2']
+for (i = 0; i < cars.length; i++) { 
+  text = text + cars[i] + ", ";
+}
     // BELOW Use forEach Loop to display the data from each of your array's in the correct div
 
 

@@ -15,16 +15,12 @@ var links = [];
 
 var i;
 for(i=0; i < songs.length; i++){
-     $("#songs").append("<img src=" + images_link[i] + ">");
+    console.log(i);
+     $("#songs").append("<img src=" + images_links[i] + ">");
     $("#songs").append("<ul>" + songs[i] + "</ul>");
 }
 
-var i;
-var text;
-var cars = ['1', '2']
-for (i = 0; i < cars.length; i++) { 
-  text = text + cars[i] + ", ";
-}
+
     // BELOW Use forEach Loop to display the data from each of your array's in the correct div
 
 

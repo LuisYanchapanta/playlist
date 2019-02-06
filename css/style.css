@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    color:white;
 }
 
 #cart {
@@ -56,16 +57,46 @@ h1 {
 }
 
 .coverSong {
-    width:40px;
-    height:40px;
+    width:200px;
+    height:200px;
 }
 
 input {
     padding: 5px 10px;
     font-size: 14px;
+    background-color:white;
+    color:black;
 }
 
 button {
     font-size: 14px;
     padding: 5px 10px;
+    background-color:white;
+}
+
+head{
+    background-color:green;
+}
+
+#songs1{
+    border-style: solid;
+  border-color: #BC9B1B;
+}
+
+#songs2{
+    border-style: solid;
+  border-color: green;
+}
+
+#songs3{
+    border-style: solid;
+  border-color: #BC9B1B;
+}
+
+body{
+    background-color:black;
+}
+
+#add{
+    color:white;
 }

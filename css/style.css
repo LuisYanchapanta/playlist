@@ -5,7 +5,7 @@ h1 {
 
 #cart {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
 }
@@ -80,17 +80,23 @@ head{
 
 #songs1{
     border-style: solid;
-  border-color: #BC9B1B;
+ border-radius: 20px;
+    border:solid #d4af37;
+    padding:20px;
 }
 
 #songs2{
     border-style: solid;
-  border-color: green;
+ border-radius: 20px;
+    border:solid #d4af37;
+    padding:20px;
 }
 
 #songs3{
     border-style: solid;
-  border-color: #BC9B1B;
+ border-radius: 20px;
+    border:solid #d4af37;
+    padding:20px;
 }
 
 body{
@@ -99,4 +105,18 @@ body{
 
 #add{
     color:white;
+}
+
+#backgroundimg{
+ background:url("https://78.media.tumblr.com/8e06279879135cab81cd9f700754ad3f/tumblr_oc4rnyscI91rcfkrho1_r1_500.gif");
+background-size:1400px 800px;
+
+}
+
+body{
+    color:#d4af37;
+}
+
+#add{
+    color:#d4af37;
 }
